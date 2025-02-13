@@ -118,7 +118,10 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           _showDialog();
         },
-        child: Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
       ),
     );
   }
